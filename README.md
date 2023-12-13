@@ -1,8 +1,16 @@
-# YOLO (You Only Look Once)
+# Real-time-Object-Detection-with-YOLO-using-OpenCV
 
-## How It Works?
-We use a totally different approach. We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
+This repository contains Python scripts for object detection using the YOLO (You Only Look Once) model with OpenCV. YOLO is a real-time object detection system that can detect multiple objects in an image or video with a single forward pass through the neural network.
 
+## Code 1: Object Detection on Image
+The first script demonstrates how to perform object detection on a static image. It uses the YOLO model to identify and localize objects within the image. The detected objects are annotated with bounding boxes and labeled with their corresponding class names.
+
+## Code 2: Object Detection on Video
+The second script extends the object detection to a video stream. It continuously processes frames from a video file, applying the YOLO model to detect and track objects in real-time. The script visualizes the detected objects by drawing bounding boxes and class labels on the video frames.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Results:-
 1. IMAGE:-
 
 ![office1_bounding_boxes](https://github.com/ArpitaSatsangi/YOLO/assets/107709451/ae6977fe-f8a5-4b70-a9f4-8abe8f754e60)
