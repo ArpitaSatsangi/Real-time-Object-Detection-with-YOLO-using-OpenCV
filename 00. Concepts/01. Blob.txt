@@ -1,0 +1,15 @@
+In computer vision and deep learning, a blob is a binary large object, which is a chunk of data stored in a database or other storage system. 
+In the context of your code, however, "blob" refers to a preprocessing step commonly used in Convolutional Neural Networks (CNNs) 
+for computer vision tasks, such as object detection.
+
+
+The blob is a modified and preprocessed version of the input image that is better suited for consumption by the YOLO (You Only Look Once) 
+neural network. The modifications typically involve scaling pixel values, resizing the image to a specific spatial size, subtracting mean values, 
+and potentially other operations like channel swapping.
+
+This preprocessing is essential to ensure that the input image conforms to the expectations of the neural network. 
+Different neural networks may have different requirements for input data, and preprocessing helps make sure that the input data is in a 
+suitable format for the network to make accurate predictions.
+
+In the case of YOLO, it often uses a fixed-size input image, and the blob is created with the specified spatial size (e.g., 416x416 pixels).
+Additionally, the mean subtraction and channel swapping are applied to match the pre-processing steps used during the training of the YOLO model.
